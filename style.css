@@ -1,0 +1,107 @@
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.white-card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  width: 150px;
+  border-radius: 50%;
+  border: grey 2px
+}
+
+.btn-pink{
+  font-size: 20px;
+  background-color: #f28482;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.list-inline > li {
+  list-style-type: none;
+  display: inline;
+  margin: 15px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.social-network {
+  font-size: 30px;
+
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+body {
+  background-color: #f7ede2;
+  font-family: 'Open Sans';
+  color: #495057;
+  font-size: 17px;
+  line-height: normal;
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  color: #84a59d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
+  font-size: 32px;
+}
+
+h2 {
+  color: #495057;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+  font-size: 17px;
+}
+
+a {
+  color: #f28482;
+  font-size: medium;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+a:hover {
+  color: #84a59d;
+}
+
+a:hover.btn-pink {
+  color: white;
+  background-color: #84a59d;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
