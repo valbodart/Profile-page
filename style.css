@@ -18,9 +18,9 @@
   border: grey 2px
 }
 
-.btn-pink{
+.btn-green{
   font-size: 20px;
-  background-color: #f28482;
+  background-color: #84a59d;
   color: white;
   border-radius: 4px;
   padding: 6px;
@@ -70,19 +70,19 @@ h2 {
 }
 
 a {
-  color: #f28482;
+  color: #84a59d;
   font-size: medium;
   text-decoration: none;
   margin: 10px auto;
 }
 
 a:hover {
-  color: #84a59d;
+  color: #f28482;
 }
 
-a:hover.btn-pink {
+a:hover.btn-green {
   color: white;
-  background-color: #84a59d;
+  background-color: #f28482;
 }
 
 @media (max-width: 960px) {
